@@ -1,5 +1,5 @@
 # engteas
 Wechatapp ENGTEA
 
-//thanksfull//
+//thankfully//
 -FastClick.js
