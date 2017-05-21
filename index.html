@@ -65,18 +65,7 @@
 
 
 		$(document).ready(function(){
-			/*
-　　alert("这个是浏览器当前窗口可视区域高度："+$(window).height()); //浏览器当前窗口可视区域高度
-　　alert("这个是浏览器当前窗口文档的高度："+$(document).height()); //浏览器当前窗口文档的高度
-　　alert("这个是浏览器当前窗口文档body的高度："+$(document.body).height());//浏览器当前窗口文档body的高度
-　　alert("这个是浏览器当前窗口文档body的总高度："+$(document.body).outerHeight(true));//浏览器当前窗口文档body的总高度 包括border padding margin
-　　alert("这个是浏览器当前窗口可视区域宽度："+$(window).width()); //浏览器当前窗口可视区域宽度
-　　alert("这个是浏览器当前窗口文档对象宽度："+$(document).width());//浏览器当前窗口文档对象宽度
-　　alert("这个是浏览器当前窗口文档body的宽度："+$(document.body).width());//浏览器当前窗口文档body的宽度
-　　alert("这个是浏览器当前窗口文档body的总宽度 ："+$(document.body).outerWidth(true));//浏览器当前窗口文档body的总宽度 包括border padding margin
-		//搞盒子
-		*/
-		$(".getme").css({"width":$(window).width(),"height":$(window).height()})
+		$(".getme").css({"width":$(window).width(),"height":$(window).height()-5})
 		$(".contents").css({"width":$(".getme").width(),"height":$(".getme").height()-$(".titles").height()})
 		$(".imgs").css({"marginLeft":"5px","marginTop":"5px"});
 		changes();
