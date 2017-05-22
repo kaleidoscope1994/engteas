@@ -1,5 +1,2 @@
 # engteas
-Wechatapp ENGTEA
-
-//thankfully//
--FastClick.js
+WechatGame ENGTEA
